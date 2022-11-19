@@ -1,0 +1,83 @@
+// Landingpage/technologies
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.landingpage a {
+    justify-self: center;
+}
+
+.tech-box1,
+.tech-box2,
+.tech-box3 {
+    // grid-row: span 2;
+    outline: 2px solid #000;
+    justify-content: center;
+}
+
+.tech-box2 {
+    grid-column: span 2;
+}
+
+.tech-box3 {
+    grid-column: span 3;
+}
+
+@media screen and (max-width: 768px) {
+    .landingpage h1,
+    .tech-box1,
+    .tech-box2,
+    .tech-box3 {
+        grid-column: span 1;
+    }
+}
+
+.landingpage div {
+    background-color: $list-background-color;
+}
+
+.landingpage a:hover {
+    background-color: $list-hover-background-color;
+}
+
+// Technology
+.technology {
+    display: inline-grid;
+    gap: 1em 4em;
+}
+
+.tech-list {
+    grid-column: span 1;
+    // grid-column: 1/3;
+}
+
+.tech-list a {
+    text-decoration: none;
+    outline: 1px solid #000;
+    // padding: $p-font-size * 0.5;
+    // margin-bottom: $p-font-size * 2.25;
+    // background-color: aqua;
+    background-color: $list-background-color;
+}
+
+.tech-list a:hover {
+    outline: 2px solid #000;
+    // background-color: #2f4f75;
+    background-color: $list-hover-background-color;
+}
+
+.tech-info-container {
+    grid-column: 2/3;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-list {
+        display: none;
+    }
+}

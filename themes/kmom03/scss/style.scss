@@ -1,0 +1,129 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'mobile-menu';
+
+// FONTS (Roboto + Sono)
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sono&display=swap');
+
+// Styling for report-page
+@import 'report';
+
+// Styling for kmom03-page
+@import 'technologies';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+}
+
+.me {
+    max-width: 10%;
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: $p-font-size;
+    line-height: $p-line-height;
+    width: $p-width;
+    margin-bottom: $p-margin-bottom;
+    margin: $p-margin;
+    letter-spacing: $p-letter-spacing;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media screen and (max-width: 48em) {
+    html {
+        font-size: 75%;
+        width: 75%;
+    }
+
+    p {
+        // font-size: $p-font-size * 0.75;
+        width: $p-width * 0.75;
+        // width: $p-width * 0.50;
+        text-align: center;
+    }
+
+    img {
+        scale: 75%;
+    }
+}
+
+@media screen and (max-width: 32em) {
+    html {
+        width: 50%;
+    }
+
+    p {
+        // font-size: $p-font-size * 0.5;
+        width: $p-width * 0.5;
+        text-align: center;
+    }
+
+    img {
+        scale: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    // html {
+    //     max-width: 250px;
+    // }
+
+    // body {
+    //     max-width: 250px;
+    // }
+    
+    // p {
+    //     width: 250px;
+    // }
+
+    * {
+        max-width: 80%;
+    }
+}
+
+// .header, .site-header {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .nav {
+//     display: inline-block;
+// }
+
+// .title h1 {
+//     max-width: 30%;
+// }

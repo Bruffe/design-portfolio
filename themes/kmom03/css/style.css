@@ -6457,6 +6457,146 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a, .nav-toggle {
+  color: #333;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.landingpage a {
+  justify-self: center;
+}
+
+.tech-box1,
+.tech-box2,
+.tech-box3 {
+  outline: 2px solid #000;
+  justify-content: center;
+}
+
+.tech-box2 {
+  grid-column: span 2;
+}
+
+.tech-box3 {
+  grid-column: span 3;
+}
+
+@media screen and (max-width: 768px) {
+  .landingpage h1,
+  .tech-box1,
+  .tech-box2,
+  .tech-box3 {
+    grid-column: span 1;
+  }
+}
+.landingpage div {
+  background-color: #2f4f75;
+}
+
+.landingpage a:hover {
+  background-color: #0ff;
+}
+
+.technology {
+  display: inline-grid;
+  gap: 1em 4em;
+}
+
+.tech-list {
+  grid-column: span 1;
+}
+
+.tech-list a {
+  text-decoration: none;
+  outline: 1px solid #000;
+  background-color: #2f4f75;
+}
+
+.tech-list a:hover {
+  outline: 2px solid #000;
+  background-color: #0ff;
+}
+
+.tech-info-container {
+  grid-column: 2/3;
+}
+
+@media screen and (max-width: 768px) {
+  .tech-list {
+    display: none;
+  }
+}
 body {
   background-color: #3d5a80;
 }
@@ -6505,7 +6645,6 @@ p {
     width: 75%;
   }
   p {
-    font-size: 0.975rem;
     width: 48rem;
     text-align: center;
   }
@@ -6518,11 +6657,15 @@ p {
     width: 50%;
   }
   p {
-    font-size: 0.65rem;
     width: 32rem;
     text-align: center;
   }
   img {
     scale: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  * {
+    max-width: 80%;
   }
 }
