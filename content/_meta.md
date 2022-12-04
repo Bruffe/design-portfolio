@@ -1,6 +1,6 @@
 ---
-Logo: assets/img/capybara-lowerres.png
-# Logo: assets/img/leaf_256x256.png
+# Logo: assets/img/capybara-lowerres.png
+Logo: image/capybara-lowerres.png?w=250
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
