@@ -41,7 +41,7 @@ Resultat
 </div>
 
 <div style="display: flex; justify-content: center">
-<iframe style="width: 47.5%; height: 13rem" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSL3vSxjlogrCXxpIdv2yb_c8GREfNJaPWV5hSkO1aKHMW0OV371-t-9pEnUgego-O9xRno0CFL0GXI/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe style="width: 47.5%; height: 13rem" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSL3vSxjlogrCXxpIdv2yb_c8GREfNJaPWV5hSkO1aKHMW0OV371-t-9pEnUgego-O9xRno0CFL0GXI/pubhtml?widget=true&amp;headers=false" title="Spreadsheet"></iframe>
 </div>
 
 <!-- Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade. -->

@@ -1,0 +1,18 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landingpage">
+            {{ content }}
+        </div>
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/SX08NT55YhA" frameborder="0" title="YouTube video player" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

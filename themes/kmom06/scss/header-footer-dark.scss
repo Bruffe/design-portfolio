@@ -1,0 +1,34 @@
+.header {
+    background-color: #3b2929;
+    // background-image: url("https://www.transparenttextures.com/patterns/squares.png");
+    // background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    background-image: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.header div {
+    margin: $p-font-size;
+}
+
+// .title,
+// .nav {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-content: center;
+// }
+
+.nav ul {
+    // background-color: $background-color;
+    // background-color: $box-background-color;
+    // border: 4px solid $background-color;
+    background-color: $box-background-color;
+    border: 4px solid $texture-border-color;
+}
+
+.footer {
+    background-color: #3b2929;
+    // background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    background-image: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+}

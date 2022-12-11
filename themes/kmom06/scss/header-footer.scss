@@ -1,0 +1,21 @@
+.header {
+    background-color: $texture-color;
+    background-image: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header div {
+    margin: $p-font-size;
+}
+
+.nav ul {
+    background-color: $box-background-color;
+    border: 6px solid $texture-border-color;
+}
+
+.footer {
+    background-color: $texture-color;
+    background-image: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+}
